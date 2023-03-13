@@ -1,0 +1,69 @@
+
+  .wrappedbox{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    border: solid 5px red;
+    text-align: center;
+}
+
+#bio{
+    border: solid 5px green;
+    text-align: center;
+}
+
+#biocontent{
+    text-align: center;
+    
+
+
+}
+
+#workexperience {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px green
+}
+
+.contact{
+    flex-direction: column;
+    text-align: center;
+}
+
+.middlecolumn{
+    flex-direction: row;
+}
+
+#box4{
+    border: solid 5px yellow
+}
+
+.middlecolumn {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.middlecolumn div {
+    flex-grow: 1;
+    margin: 0 8px;
+    border: solid 5px red;
+}
+
+#box8{
+    flex-grow: 1;
+    border: solid 5px pink;
+    margin: 0 8px;
+
+}
+
+#box9{
+    flex-grow: 1;
+    border: solid 5px blue
+}
